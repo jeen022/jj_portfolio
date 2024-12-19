@@ -96,7 +96,7 @@ section.work_1 .inner .box.design .tit {font-size: 30px; line-height: 1.4; margi
 /* section.customer */
 section.customer {padding: 160px; text-align: center; background: url(../img/img_04.jpg) no-repeat; background-size: cover;}
 section.customer .tit {color: #fff; font-size: 40px; margin-bottom: 10px;}
-section.customer .txt {color: #777;}
+section.customer .txt {color: #fff;}
 
 /* section.work_2 */
 section.work_2 { padding: 190px 0; position: relative;}
