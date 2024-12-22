@@ -21,6 +21,7 @@ address, em, i {font-style: normal;}
 
 /* layout */
 body{font-family: 'Noto Sans KR', sans-serif; font-size: 14px; color: #333;}
+.wrap {overflow: hidden}
 .en{font-family:'OPTIHandelGothic-Light', sans-serif;}
 /* .en{font-family:'handel gothic', sans-serif;} */
 .en_s{font-family:'Dancing Script', cursive; margin-bottom: 8px;}
@@ -109,10 +110,10 @@ section.work_2 .inner .box .txt {padding: 27px 0 10px 0;}
 footer {width: 1200px; margin: auto;}
 footer .top .tit {color: #d3d3d3; font-size: 62px; text-align: center; font-weight: normal;
     margin-bottom: 40px;}
-footer .bottom {border-top: 1px solid #d3d3d3; padding: 40px 0 80px 20px; color: #333; font-weight: normal;}
+footer .bottom {border-top: 1px solid #d3d3d3; padding: 40px 0 80px 0; color: #333; font-weight: normal;}
 footer .bottom ul {overflow: hidden;}
-footer .bottom ul li {float: left; width: 29%; font-size: 14px; line-height: 3; padding: 0 0 0 92px;}
-footer .bottom ul li:nth-child(1) {width: 42%; font-size: 20px; line-height: 1.5; letter-spacing: 2.5px; color: #cacaca; 
+footer .bottom ul li {float: left; width: 28%; font-size: 14px; line-height: 3; padding: 0 0 0 92px;}
+footer .bottom ul li:nth-child(1) {width: 44%; font-size: 20px; line-height: 1.5; letter-spacing: 2.5px; color: #cacaca; 
     border-right: 1px solid #d3d3d3; font-weight: bold;}
 footer .bottom ul li b:nth-child(1){color: #333; font-weight: normal;}
 footer .bottom ul li p {line-height: 1.5; color: #aaa;}
@@ -261,4 +262,131 @@ section.Editorial .inner_wrap .box.last {border-bottom: none;}
 
 section.Editorial .inner_wrap .img_wrap.ietp img {width: 576px;}
 section.Editorial .inner_wrap .img_wrap.green img {width: 730px;}
+
+/*반응형웹제작*/
+
+/*pc모드*/
+@media screen and (max-width:1720px){ /*1720px~1401px사이*/
+    .inner_header {max-width: 100%; padding: 0 30px; box-sizing: border-box;}
+    section.visual {max-width: 100%; padding: 0 30px; box-sizing: border-box;}
+    section.visual .maintxt {margin-top: 150px;}
+    section.visual .maintxt .tit {font-size: 47px;}    
+}
+
+/*1024 테블릿모드*/
+@media screen and (max-width:1400px){/*1400px~1024px사이*/
+    section.visual .maintxt {margin-top: 100px;}
+    section.visual .maintxt .tit {font-size: 50px;}
+    section.visual .maintxt .txt{padding: 20px 0px 0px 0px;}
+    section .inner{width: 100%; padding: 0 30px; box-sizing: border-box;}
+    .img img {width:100%;}
+    /*section.journal{overflow: hidden;}*/
+    section.skills .scroll{display: none;}
+    section.skills .circle_box{ right: -10%; top:0;}
+    section.skills .inner .box .img{width: 90%;}
+    section.customer {padding: 160px 0;}
+    footer {width: 100%; padding: 0 30px; box-sizing: border-box;}
+    footer .bottom {padding-left: 0px;}
+    footer .bottom ul li {padding-left: 55px;}
+    footer .bottom ul li:nth-child(1) {letter-spacing:0.4px; font-weight: normal;}
+    .txt p {font-size: 12px;}
+    section.skills .inner .box ul li p {font-size: 12px;}
+    .tit span b { font-size: 75%;}
+    section.work_2 .inner .box.left {padding-right: 50px;}
+}
+
+/*1024 이하 테블릿*/
+@media screen and (max-width:1000px){/*768px 까지*/
+    .inner_header {height: 80px; line-height: 80px;}
+    .inner_header .main_menu{width: 0; height: 0; opacity: 0; display: none;}
+    .menu_open button.open{position: fixed; top: 0; transform: none; width: 70px; height: 80px; padding: 0; line-height: 80px;}
+    .menu_open button.open:before {display: none;}
+    section.visual .mainimg {width: 100%; float: none;}
+    section.visual .mainimg img {width: 100%;}
+    section.visual .maintxt{width: 100%; float: none; margin-top: 50px;}
+    section .inner .box {float: none; width: 100%;}
+    section.skills{padding: 80px 0;}
+    section.skills .circle_box {top:200px;}
+    section.skills .inner .box .img {margin: 0 auto 50px; padding-top: 0; width: 80%; }
+    section.work_1 {padding: 80px 0;}
+    section.work_1 .txt {margin-top: 20px;}
+    section.work_1 .inner .box.design {margin-top: 50px; width: 100%;}
+    section.work_1 .inner .box .img { margin: 50px auto 0; width:90%;}
+    section.work_1 .inner .box .img {width: 70%; }
+    section.work_1 .inner .box.design .img {width: 70%; margin:50px 0 0;}
+    section.work_1 .img.motion:after {background: #fff;}
+    section.work_1 .inner .box.design .tit {font-size: 35px;}
+    section.customer{padding: 120px 0;}
+    section.customer .tit {font-size: 30px;}
+    section.work_2{padding: 80px 0; overflow: hidden}
+    section.work_2 .circle_box {left: 15%;}
+    section.work_2 .inner .box.left {padding-right: 0; overflow: hidden;}
+    section.work_2 .inner .box .img{margin-top: 50px; width: 70%; float: right; clear: both;} 
+    section.work_2 .inner .box:nth-child(2) .img {width: 100%; margin: 50px 0;}
+    section.work_2 .inner .box .tit {margin-top: 0; clear: both;}
+    section.work_2 .inner .box.left .moreBtn {float: right; margin-right: 5px;}
+    footer .bottom ul li:nth-child(1) {width: 100%; margin-bottom: 30px; border-right: none;}
+    footer .bottom ul li {width: 33.3333%;}
+}
+
+/*모바일해상도 767px*/
+@media screen and (max-width:767px){
+    body{font-size: 12px;}
+    .inner_header {height: 60px; line-height: 60px; padding: 0 20px;}
+    .menu_open button.open {height: 60px;  line-height: 60px; width:52px;}
+    .menu_open button.open img {height: 38px;}
+    .menu_open .menu_wrap .tit {font-size: 35px; left: 20px;}
+    .menu_open .menu_wrap .close:nth-child(1) {top:20px; left: 20px; transform: none;}
+    .menu_open .menu_wrap .close.en {display: none;}
+    .menu_open .menu_wrap.on:before {left: 20%;}
+    section.visual{padding: 0 20px;}
+    .tit {font-size: 30px;}
+    section.visual .maintxt .tit {font-size: 31px;}
+    .tit span.en_s {font-size: 18px;}
+    .txt {text-align: justify;}
+    .moreBtn{font-size: 12px;}
+    section .inner {padding: 0 20px;}
+    section.skills {padding: 50px 0;}
+    section.skills .circle_box {top:15%; right: -4%;}
+    section.skills .inner .box .img {width: 100%; margin-bottom: 30px;}
+    section.skills .inner .box .tit {margin-bottom: 20px;}
+    section.skills .inner .box ul {padding-top: 20px;}
+    section.skills .inner .box ul li {margin-bottom: 20px;}
+    section.skills .inner .box ul li h3 {width: 100%; margin-bottom: 10px;}
+    section.skills .inner .box ul li p {font-size: 12px; width: 100%;}
+    section.skills .inner .box .moreBtn {margin-left: 0;}
+    section.work_1 {padding: 50px 0;}
+    section.work_1 .inner .box .img {width: 100%; margin-top: 30px;}
+    section.work_1 .inner .box.design .img {width: 100%;}
+    section.work_1 .inner .box .img.motion:after {background: #e8fcff;}
+    section.work_1 .inner .box.design .img.motion:after {background: #fff;}
+    section.work_1 .inner .box.design {padding-top: 50px;}
+    section.work_1 .inner .box.design .tit {font-size: 25px; margin-bottom: 10px;}
+    section.customer {padding: 80px 20px;}
+    section.customer .tit {font-size: 25px;}
+    section.work_2 {padding: 50px 0;}
+    section.work_2 .circle_box {left: 4%;}
+    section.work_2 .inner .box .txt {margin: 30px 0 10px;}
+    section.work_2 .inner .box.left {text-align: right;}
+    section.work_2 .inner .box.left .txt {text-align: right;}
+    section.work_2 .inner .box .img {margin-top: 30px;}
+    section.work_2 .inner .box:nth-child(2) .img {margin: 30px 0;}
+    footer {padding: 0 20px;}
+    footer .top .tit {font-size: 41px; padding-bottom: 30px; padding-left: 50px; text-align-last: left;}
+    footer .bottom ul li:nth-child(1) {font-size: 20px;}
+    footer .bottom ul li {width: 100%; margin-bottom: 12px;}
+    footer .bottom ul li b:nth-child(1) {font-size: 13px;}
+}
+
+     /*320모바일*/
+     @media screen and (max-width:320px) {
+        body{font-size: 12px;}
+        .tit span.en_s {font-size: 16px;}
+        section.visual .maintxt .tit, .tit,footer .top .tit {font-size: 27px;}
+        .menu_open .menu_wrap .tit {font-size: 27px;}
+        section.skills .inner .box ul li h3 {font-size: 14px;}
+        section.work_1 .inner .box.design .img.motion:after {background: #e8fcff;}
+        section.work_1 .inner .box.design .tit {font-size: 22px;}
+        .moreBtn {font-size: 11px;}
+}
 
