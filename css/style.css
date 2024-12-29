@@ -216,8 +216,8 @@ section.package .inner_wrap .txt_wrap .tit span {font-size: 39px;}
 section.package .inner_wrap .txt_wrap .tit .en_s {margin-left: 10px; font-size: 25px;}
 
 section.package .inner_wrap .box.last {border-bottom: none;}
-section.package .inner_wrap .img_wrap.right {margin-left: -50px;}
-section.package .inner_wrap .img_wrap.r {margin-left: -20px;}
+section.package .inner_wrap .img_wrap.right {margin-left: -25px;}
+/* section.package .inner_wrap .img_wrap.r {margin-left: -10px;} */
 
 /* promotion page */
 section.promotion { padding: 90px 0;}
@@ -293,6 +293,8 @@ section.Editorial .inner_wrap .img_wrap.green img {width: 730px;}
     section.skills .inner .box ul li p {font-size: 12px;}
     .tit span b { font-size: 75%;}
     section.work_2 .inner .box.left {padding-right: 50px;}
+
+    section.package .inner_wrap .img_wrap.left .tit_2 {display: none;}
 }
 
 /*1024 이하 테블릿*/
@@ -406,20 +408,21 @@ section.Editorial .inner_wrap .img_wrap.green img {width: 730px;}
     section.skills .circle_box {top:25%; right: -60%; width: 80%; height: 80%;}
     section.work_2 .circle_box {left: 8%; width: 80%; height: 80%;}
 }
-     /*320모바일*/
-     @media screen and (max-width:320px) {
-        body{font-size: 12px;}
-        .tit span.en_s {font-size: 16px;}
-        section.visual .maintxt .tit, .tit, footer .top .tit {font-size: 27px;}
-        .menu_open .menu_wrap .tit {font-size: 27px;}
-        section.skills .inner .box ul li h3 {font-size: 14px;}
-        section.work_1 .inner .box.design .img.motion:after {background: #ffffff;}
-        section.work_1 .inner .box.design .tit {font-size: 22px;}
-        .moreBtn {font-size: 11px;}
-        footer .top .tit {font-size: 27px; text-align-last: left;}
-        footer {margin-left: 0;}
 
-        section.skills .circle_box {top:25%; right: -60%; width: 80%; height: 80%;}
-        section.work_2 .circle_box {left: 8%; width: 80%; height: 80%;}
+/*320모바일*/
+@media screen and (max-width:320px) {
+body{font-size: 12px;}
+.tit span.en_s {font-size: 16px;}
+section.visual .maintxt .tit, .tit, footer .top .tit {font-size: 27px;}
+.menu_open .menu_wrap .tit {font-size: 27px;}
+section.skills .inner .box ul li h3 {font-size: 14px;}
+section.work_1 .inner .box.design .img.motion:after {background: #ffffff;}
+section.work_1 .inner .box.design .tit {font-size: 22px;}
+.moreBtn {font-size: 11px;}
+footer .top .tit {font-size: 27px; text-align-last: left;}
+footer {margin-left: 0;}
+
+section.skills .circle_box {top:25%; right: -60%; width: 80%; height: 80%;}
+section.work_2 .circle_box {left: 8%; width: 80%; height: 80%;}
 }
 
