@@ -329,6 +329,21 @@ section.Editorial .inner_wrap .img_wrap.green img {width: 730px;}
     footer .bottom ul li:nth-child(1) {width: 100%; margin-bottom: 30px; border-right: none;}
     footer .bottom ul li {width: 33.3333%;  padding-left: 0;}
     footer .top .tit {text-align-last: left;}
+
+    section.package .inner_wrap .txt_wrap {font: none; width: 100%;}
+    section.package .inner_wrap .img_wrap {font: none; width: 100%;}
+    section.package .inner_wrap .img_wrap.left .tit_2 {display: none;}
+    section.package .inner_wrap .img_wrap.left {margin-top: 0px;}
+    section.package .inner_wrap .img_wrap.right {margin-left:0px;}
+
+    section.promotion .inner_wrap .txt_wrap {font: none; width: 100%;}
+    section.promotion .inner_wrap .img_wrap {font: none; width: 100%;}
+
+    section.Editorial .inner_wrap .txt_wrap {font: none; width: 100%;}
+    section.Editorial .inner_wrap .img_wrap {font: none; width: 100%;}
+
+    section.pop .inner_wrap .txt_wrap {font: none; width: 100%;}
+    section.pop .inner_wrap .img_wrap {font: none; width: 100%;}
 }
 
 /*모바일해상도 767px*/
