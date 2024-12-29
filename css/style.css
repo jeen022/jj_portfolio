@@ -335,6 +335,7 @@ section.Editorial .inner_wrap .img_wrap.green img {width: 730px;}
     section.package .inner_wrap .img_wrap.left .tit_2 {display: none;}
     section.package .inner_wrap .img_wrap.left {margin-top: 0px;}
     section.package .inner_wrap .img_wrap.right {margin-left:0px;}
+    section.package .inner_wrap .img_wrap.r {margin-left: 0px;}
 
     section.promotion .inner_wrap .txt_wrap {font: none; width: 100%;}
     section.promotion .inner_wrap .img_wrap {font: none; width: 100%;}
