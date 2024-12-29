@@ -306,27 +306,29 @@ section.Editorial .inner_wrap .img_wrap.green img {width: 730px;}
     section.visual .maintxt{width: 100%; float: none; margin-top: 50px;}
     section .inner .box {float: none; width: 100%;}
     section.skills{padding: 80px 0;}
-    section.skills .circle_box {top:200px;}
-    section.skills .inner .box .img {margin: 0 auto 50px; padding-top: 0; width: 80%; }
+    section.skills .circle_box {top:350px;}
+    section.skills .inner .box .img {margin-bottom: 50px; padding-top: 0; width: 80%; }
     section.work_1 {padding: 80px 0;}
     section.work_1 .txt {margin-top: 20px;}
     section.work_1 .inner .box.design {margin-top: 50px; width: 100%;}
-    section.work_1 .inner .box .img { margin: 50px auto 0; width:90%;}
-    section.work_1 .inner .box .img {width: 70%; }
+    section.work_1 .inner .box .img { margin-top: 50px; width:90%;}
+    section.work_1 .inner .box .img {width: 70%;}
     section.work_1 .inner .box.design .img {width: 70%; margin:50px 0 0;}
     section.work_1 .img.motion:after {background: #fff;}
     section.work_1 .inner .box.design .tit {font-size: 35px;}
     section.customer{padding: 120px 0;}
     section.customer .tit {font-size: 30px;}
+    section.customer .txt {text-align: center;}
     section.work_2{padding: 80px 0; overflow: hidden}
     section.work_2 .circle_box {left: 15%;}
-    section.work_2 .inner .box.left {padding-right: 0; overflow: hidden;}
+    section.work_2 .inner .box.left {margin-top: 30px; padding-right: 0; overflow: hidden;}
     section.work_2 .inner .box .img{margin-top: 50px; width: 70%; float: right; clear: both;} 
     section.work_2 .inner .box:nth-child(2) .img {width: 100%; margin: 50px 0;}
     section.work_2 .inner .box .tit {margin-top: 0; clear: both;}
     section.work_2 .inner .box.left .moreBtn {float: right; margin-right: 5px;}
     footer .bottom ul li:nth-child(1) {width: 100%; margin-bottom: 30px; border-right: none;}
-    footer .bottom ul li {width: 33.3333%;}
+    footer .bottom ul li {width: 33.3333%;  padding-left: 0;}
+    footer .top .tit {text-align-last: left;}
 }
 
 /*모바일해상도 767px*/
@@ -347,7 +349,7 @@ section.Editorial .inner_wrap .img_wrap.green img {width: 730px;}
     .moreBtn{font-size: 12px;}
     section .inner {padding: 0 20px;}
     section.skills {padding: 50px 0;}
-    section.skills .circle_box {top:15%; right: -4%;}
+    section.skills .circle_box {top:25%; right: -30%;}
     section.skills .inner .box .img {width: 100%; margin-bottom: 30px;}
     section.skills .inner .box .tit {margin-bottom: 20px;}
     section.skills .inner .box ul {padding-top: 20px;}
@@ -372,21 +374,31 @@ section.Editorial .inner_wrap .img_wrap.green img {width: 730px;}
     section.work_2 .inner .box .img {margin-top: 30px;}
     section.work_2 .inner .box:nth-child(2) .img {margin: 30px 0;}
     footer {padding: 0 20px;}
-    footer .top .tit {font-size: 41px; padding-bottom: 30px; padding-left: 50px; text-align-last: left;}
+    footer .top .tit {font-size: 41px; padding-bottom: 30px; text-align-last: left;}
     footer .bottom ul li:nth-child(1) {font-size: 20px;}
     footer .bottom ul li {width: 100%; margin-bottom: 12px;}
     footer .bottom ul li b:nth-child(1) {font-size: 13px;}
+}
+
+/*모바일해상도 600px*/
+@media screen and (max-width:600px){
+    section.skills .circle_box {top:25%; right: -60%;}
 }
 
      /*320모바일*/
      @media screen and (max-width:320px) {
         body{font-size: 12px;}
         .tit span.en_s {font-size: 16px;}
-        section.visual .maintxt .tit, .tit,footer .top .tit {font-size: 27px;}
+        section.visual .maintxt .tit, .tit, footer .top .tit {font-size: 27px;}
         .menu_open .menu_wrap .tit {font-size: 27px;}
         section.skills .inner .box ul li h3 {font-size: 14px;}
-        section.work_1 .inner .box.design .img.motion:after {background: #e8fcff;}
+        section.work_1 .inner .box.design .img.motion:after {background: #ffffff;}
         section.work_1 .inner .box.design .tit {font-size: 22px;}
         .moreBtn {font-size: 11px;}
+        footer .top .tit {font-size: 27px; text-align-last: left;}
+        footer {margin-left: 0;}
+
+        section.skills .circle_box {top:25%; right: -60%; width: 80%; height: 80%;}
+        section.work_2 .circle_box {left: 8%; width: 80%; height: 80%;}
 }
 
