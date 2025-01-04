@@ -28,17 +28,21 @@ body{font-family: 'Noto Sans KR', sans-serif; font-size: 14px; color: #333;}
 .bottom li p{font-family: 'Noto Sans KR', sans-serif; font-weight: bold;}
 
 /* header */
-.inner_header{max-width: 1720px; height: 110px; line-height: 110px; margin: auto;}
-.inner_header .logo{float: left;}
-.inner_header .logo a{display: block;width: 100%;height: 100%; margin-left: 20px;}
+header {width: 100%; height: 100%;}
+.container{position: relative; width: 1720px; height: 110px;  margin: 0 auto; z-index: 100;}
+.inner_header{position: fixed; width: 1720px; height: 110px; align-items: center;
+display: flex; justify-content: space-between; background: #ffffff;}
+/* .inner_header .logo{float: left;} */
+.inner_header .logo a{display: block; width: 100%;height: 100%; margin-left: 40px;}
 
 /* GNB */
-.inner_header .main_menu{float: right; overflow: hidden;position: relative;}
+.inner_header .main_menu{position: relative;}
+/* .inner_header .main_menu{float: right; overflow: hidden;position: relative;} */
 span.bar{
-    position: absolute; left: 0; bottom: 40px; width: 0; height: 3px;
-    background: #e7e7e7; transition: 0.4s;}
-.inner_header .main_menu .gnb{margin-right: 50px;}
-.inner_header .main_menu .gnb li {float: left; margin: 0 20px;}
+    position: absolute; left: 0; bottom: -5px; width: 0; height: 3px;
+    background: #e7e7e7; transition: all 0.4s;}
+.inner_header .main_menu .gnb{margin-right: 28px;}
+.inner_header .main_menu .gnb li {float: left; margin: 0 28px;}
 .inner_header .main_menu .gnb li a{display: block; width: 100%; height: 100%; color: #555;}
 
 /* 타이틀, 텍스트, 더보기 버튼 공통 클래스 */
@@ -79,7 +83,7 @@ font-size: 10px; letter-spacing: 5px;/* 자간조정 */ writing-mode: vertical-r
 section.skills .scroll:before { content:''; position: absolute; height: 75px; width: 1px; 
     top: 0; left: 5px; background: #333;}
 
-section.skills .inner .box .img {padding-top: 125px;}
+section.skills .inner .box .img {padding-top: 125px; width: 558px;}
 section.skills .inner .box .tit { margin-bottom: 40px;}
 section.skills .inner .box ul {border-top: 1px solid #e6e6e6; padding-top: 40px;}
 section.skills .inner .box ul li{margin-bottom: 24px; overflow: hidden;/* 자식요소float > 오버플로우히든으로 높이를 감싸기 */}
@@ -267,8 +271,8 @@ section.Editorial .inner_wrap .img_wrap.green img {width: 730px;}
 
 /*pc모드*/
 @media screen and (max-width:1720px){ /*1720px~1401px사이*/
-    .inner_header {max-width: 100%; padding: 0 30px; box-sizing: border-box;}
-    section.visual {max-width: 100%; padding: 0 30px; box-sizing: border-box;}
+    .inner_header {max-width: 100%; padding: 0 50px; box-sizing: border-box;}
+    section.visual {max-width: 100%; padding: 0 50px; box-sizing: border-box;}
     section.visual .maintxt {margin-top: 150px;}
     section.visual .maintxt .tit {font-size: 47px;}    
 }
@@ -283,7 +287,7 @@ section.Editorial .inner_wrap .img_wrap.green img {width: 730px;}
     /*section.journal{overflow: hidden;}*/
     section.skills .scroll{display: none;}
     section.skills .circle_box{ right: -10%; top:0;}
-    section.skills .inner .box .img{width: 90%;}
+    section.skills .inner .box .img{width: 85%; margin-top: -20px;}
     section.customer {padding: 160px 0;}
     footer {width: 100%; padding: 0 30px; box-sizing: border-box;}
     footer .bottom {padding-left: 0px;}
@@ -347,6 +351,8 @@ section.Editorial .inner_wrap .img_wrap.green img {width: 730px;}
 
     section.pop .inner_wrap .txt_wrap {font: none; width: 100%;}
     section.pop .inner_wrap .img_wrap {font: none; width: 100%;}
+
+    .container {display: none;}
 }
 
 /*모바일해상도 767px*/
