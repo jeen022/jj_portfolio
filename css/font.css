@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@font-face {
+ font-family: 'Montserrat';
+ src: url(../font/Montserrat.ttf) format('truetype');
+}
+
+
+    /* font-family: 'handel gothic';
+    src: url('./font/handel gothic') format('truetype'); */

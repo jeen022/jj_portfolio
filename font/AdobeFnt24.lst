@@ -1,0 +1,101 @@
+%!Adobe-FontList 1.24
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-Light
+FamilyName:Montserrat
+StyleName:Light
+FullName:Montserrat Light
+MenuName:Montserrat Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\rlaek\Downloads\홈피 메인 이미지\jj_portfolio-main\jj_portfolio-main\Font\Montserrat-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:330888
+FileModTime:1755779256
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Montserrat Light
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-SemiBold
+FamilyName:Montserrat
+StyleName:SemiBold
+FullName:Montserrat SemiBold
+MenuName:Montserrat SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\rlaek\Downloads\홈피 메인 이미지\jj_portfolio-main\jj_portfolio-main\Font\Montserrat.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:333988
+FileModTime:1755779256
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Montserrat SemiBold
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:OPTIHandelGothic-Light
+FamilyName:OPTIHandelGothic-Light
+StyleName:Regular
+FullName:OPTIHandelGothic-Light
+MenuName:OPTIHandelGothic-Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\rlaek\Downloads\홈피 메인 이미지\jj_portfolio-main\jj_portfolio-main\Font\OPTIHandelGothic-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:16720
+FileModTime:1755773332
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,OPTIHandelGothic-Light
+NameArray:0,Win,1,OPTIHandelGothic-Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HandelGothic
+FamilyName:Handel Gothic
+StyleName:Regular
+FullName:Handel Gothic
+MenuName:Handel Gothic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\rlaek\Downloads\홈피 메인 이미지\jj_portfolio-main\jj_portfolio-main\Font\handel gothic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:22620
+FileModTime:1755773332
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Handel Gothic
+NameArray:0,Win,1,Handel Gothic
+%EndFont
+
